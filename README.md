@@ -77,9 +77,15 @@ NUDT-SIRST
 
 @ARTICLE{10601187,
   author={Li, Haoqing and Yang, Jinfu and Xu, Yifei and Wang, Runshi},
+  
   journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  
   title={Mitigate Target-Level Insensitivity of Infrared Small Target Detection via Posterior Distribution Modeling}, 
+  
   year={2024},
+  
   volume={17},
+  
   pages={13188-13201},
+  
   doi={10.1109/JSTARS.2024.3429491}}
