@@ -978,8 +978,8 @@ class GaussianDiffusion:
 
             terms["mse_diff"] = mean_flat((target - model_output) ** 2)
 
-            # terms["loss_cal"] = criterion(cal, res)
-            # terms["mse"] = (terms["mse_diff"] + terms["mse_cal"]) / 2.
+            terms["loss_cal"] = criterion(cal, res)
+            terms["mse"] = (terms["mse_diff"] + terms["mse_cal"]) / 2.
             if "vb" in terms:
                 terms["loss"] = terms["mse_diff"] + terms["vb"]
             else:
